@@ -12,6 +12,8 @@
 		7774223E216B4729007A1FB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7774223C216B4729007A1FB5 /* Main.storyboard */; };
 		77742240216B472B007A1FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7774223F216B472B007A1FB5 /* Assets.xcassets */; };
 		77742243216B472B007A1FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77742241216B472B007A1FB5 /* LaunchScreen.storyboard */; };
+		77F51E7D216B4FE10081F420 /* AllMoudleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77F51E7B216B4FE10081F420 /* AllMoudleViewController.swift */; };
+		77F51E7E216B4FE10081F420 /* AllMoudleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77F51E7C216B4FE10081F420 /* AllMoudleViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7774223F216B472B007A1FB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77742242216B472B007A1FB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77742244216B472B007A1FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77F51E7B216B4FE10081F420 /* AllMoudleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllMoudleViewController.swift; sourceTree = "<group>"; };
+		77F51E7C216B4FE10081F420 /* AllMoudleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AllMoudleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		77742237216B4729007A1FB5 /* TitanKingLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				77F51E77216B4E970081F420 /* 功能大全 */,
 				77742238216B4729007A1FB5 /* AppDelegate.swift */,
 				7774223A216B4729007A1FB5 /* ViewController.swift */,
 				7774223C216B4729007A1FB5 /* Main.storyboard */,
@@ -62,6 +67,39 @@
 				77742244216B472B007A1FB5 /* Info.plist */,
 			);
 			path = TitanKingLibrary;
+			sourceTree = "<group>";
+		};
+		77F51E77216B4E970081F420 /* 功能大全 */ = {
+			isa = PBXGroup;
+			children = (
+				77F51E7B216B4FE10081F420 /* AllMoudleViewController.swift */,
+				77F51E7C216B4FE10081F420 /* AllMoudleViewController.xib */,
+				77F51E78216B4E970081F420 /* APP评分 */,
+				77F51E79216B4E970081F420 /* 签字效果 */,
+				77F51E7A216B4E970081F420 /* 获取手机信息 */,
+			);
+			path = "功能大全";
+			sourceTree = SOURCE_ROOT;
+		};
+		77F51E78216B4E970081F420 /* APP评分 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "APP评分";
+			sourceTree = "<group>";
+		};
+		77F51E79216B4E970081F420 /* 签字效果 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "签字效果";
+			sourceTree = "<group>";
+		};
+		77F51E7A216B4E970081F420 /* 获取手机信息 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "获取手机信息";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +162,7 @@
 			files = (
 				77742243216B472B007A1FB5 /* LaunchScreen.storyboard in Resources */,
 				77742240216B472B007A1FB5 /* Assets.xcassets in Resources */,
+				77F51E7E216B4FE10081F420 /* AllMoudleViewController.xib in Resources */,
 				7774223E216B4729007A1FB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F51E7D216B4FE10081F420 /* AllMoudleViewController.swift in Sources */,
 				7774223B216B4729007A1FB5 /* ViewController.swift in Sources */,
 				77742239216B4729007A1FB5 /* AppDelegate.swift in Sources */,
 			);

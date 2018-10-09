@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  AllMoudleViewController.swift
 //  TitanKingLibrary
 //
 //  Created by quanjunt on 2018/10/8.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class AllMoudleViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     fileprivate var dataArr = [String]()
@@ -16,14 +16,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        dataArr = ["功能大全"]
+        dataArr = ["APP评分", "签字效果", "获取手机信息"]
         tableView.reloadData()
-        
     }
 }
 
 // MARK: 代理
-extension ViewController: UITableViewDelegate, UITableViewDataSource {
+extension AllMoudleViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataArr.count
     }
@@ -40,7 +39,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vcs = [AllMoudleViewController()]
-        navigationController?.pushViewController(vcs[indexPath.row], animated: true)
+//        let vcs = [AllMoudleViewController()]
+//        navigationController?.pushViewController(vcs[indexPath.row], animated: true)
     }
 }
